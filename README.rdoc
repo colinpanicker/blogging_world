@@ -1,0 +1,8 @@
+Blogging App
+Sign Up
+Sign In
+Post
+Read
+Delete Own Post
+Update Own Post
+Log out
