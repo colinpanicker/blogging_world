@@ -1,7 +1,7 @@
 Blogging::Application.routes.draw do
+  resources :users
+
   root :to => 'static_pages#home'
-  
-  get "users/new"
 
   #get "static_pages/home"
 
