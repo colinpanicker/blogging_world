@@ -1,6 +1,9 @@
 Blogging::Application.routes.draw do
   resources :users
 
+  resources :microposts, only: [:create, :destroy]
+
+
   root :to => 'static_pages#home'
 
   #get "static_pages/home"
